@@ -48,7 +48,7 @@
 
 ### 2. 센서 연결 및 거리 읽기 루프
 - `connect_sensor()`: 지정된 포트(COM3)에 아두이노 초음파 센서를 시리얼 통신으로 연결한다.
-- `read_distance()`: 초음파 센서에서 거리를 주기적으로 읽어 current_distance 전역 변수에 저장한다. 충돌 없으면 forward(10) 실행
+- `read_distance()`: 초음파 센서에서 거리를 주기적으로 읽어 `current_distance` 전역 변수에 저장한다. 충돌 없으면 forward(10) 실행
 
 ### 3. 거리 읽기 백그라운드 루프 (sensor_loop 스레드)
 ```python
@@ -101,6 +101,7 @@ pip install pyserial
 - 아두이노 보드에 초음파 센서를 연결
 - 시리얼 통신 속도: 9600bps
 - 거리값(cm)을 텍스트 형태로 전송
+<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/6e8503e3-0b31-4136-b055-c66885d8fe23" />
 
 #### 3. 파이썬 코드 실행
 ```bash

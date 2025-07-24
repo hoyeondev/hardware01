@@ -21,7 +21,7 @@
 - GUI를 멈추지 않고 센서 데이터를 실시간으로 반영
 - 장애물이 사라지면 자동으로 이동 재개
 
-<img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/26a4f4b5-6265-4c77-84a8-d840bb82c1d5" />
+<img width="400" height="410" alt="image" src="https://github.com/user-attachments/assets/26a4f4b5-6265-4c77-84a8-d840bb82c1d5" />
 
 ---
 ## 3. 동작 설명
